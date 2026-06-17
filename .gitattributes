@@ -1,0 +1,2 @@
+data/neo4j_kg/*.cypher linguist-vendored=true
+data/neo4j_kg/*.graphml linguist-vendored=true
