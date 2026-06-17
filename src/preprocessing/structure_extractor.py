@@ -1,3 +1,5 @@
+# Authored by Ranjana Tarini Ravikumar — structure extraction pipeline
+
 """
 Structure Extractor - Parses raw text into structured fields for Neo4j
 
