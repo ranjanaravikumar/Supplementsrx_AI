@@ -19,7 +19,19 @@ SupplementsRx AI is a conversational RAG (Retrieval-Augmented Generation) system
 The system achieves **nDCG@5: 0.662** and **groundedness: 0.648** on a held-out discussion-board Q&A set.
 
 ---
+## Demo
 
+| Chat Interface | Evidence-Based Answer |
+|:---:|:---:|
+| ![Chat UI](docs/demo_chat_ui.jpg) | ![Answer with citations](docs/demo_answer_citations.jpg) |
+| *Welcome screen with example diabetes supplement questions* | *Answer with inline [VE] and [KG] source citations* |
+
+| Source Attribution | Knowledge Graph |
+|:---:|:---:|
+| ![Sources panel](docs/demo_sources_panel.jpg) | ![Neo4j graph](docs/demo_neo4j_graph.jpg) |
+| *Vector Embeddings vs Knowledge Graph source breakdown* | *Neo4j graph — 20 supplements, 34 conditions, 200 relationships* |
+
+---
 ## My Contributions
 
 ### 1. Data Preprocessing Pipeline — `src/preprocessing/structure_extractor.py`
